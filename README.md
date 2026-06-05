@@ -1,35 +1,87 @@
 # AI-Gym-Trainer-Project
 
-## Person A Progress Update
+# 🏋️ AI Gym Trainer
 
-### Completed
+An AI-powered personal gym trainer that uses computer vision 
+to detect body pose, count reps, and analyze workout form in real time.
 
-* Set up Python development environment.
-* Installed and configured OpenCV and MediaPipe.
-* Verified webcam access and video capture functionality.
-* Configured project environment for pose estimation development.
-* Successfully loaded MediaPipe Pose framework.
+---
 
-### Current Work
+## 👥 Team
+- **Person A (Vision & Pipeline):** harshi-web-cyber
+- **Person B (Frontend & UI):** Vaishnavi
 
-* Implementing real-time body landmark detection.
-* Testing visualization of the 33 MediaPipe body landmarks.
-* Preparing landmark extraction pipeline for exercise analysis.
+---
 
-### Upcoming Tasks
+## 🚀 Progress
 
-* Joint angle calculation (knee, hip, spine).
-* Squat and deadlift rep counting.
-* Form correction detection.
-* Pose data transmission to backend services.
+### ✅ Person A — Completed
+- Set up Python development environment
+- Installed and configured OpenCV and MediaPipe
+- Verified webcam access and video capture
+- Successfully loaded MediaPipe Pose framework
+- Implemented real-time body landmark detection
+- Visualized 33 MediaPipe body landmarks
+- Joint angle calculation for bicep curls
+- Rep counter logic working in real time
 
-### Technologies Used
+### 🔄 Person A — In Progress
+- Squat and deadlift detection
+- Form correction feedback
+- Flask server for data transmission to UI
 
-* Python
-* OpenCV
-* MediaPipe
-* NumPy
+### ⏳ Person A — Upcoming
+- Knee, hip and spine angle calculation
+- Multi exercise support
+- Pose data transmission to backend
 
-### Status
+### ⏳ Person B — Upcoming
+- Frontend UI dashboard
+- Real time data display
+- Exercise selection interface
+
+---
+
+## 🛠️ Tech Stack
+
+| Person | Technologies |
+|---|---|
+| Person A | Python, OpenCV, MediaPipe, NumPy, Flask |
+| Person B | JavaScript, React, Next.js |
+
+---
+
+## ⚙️ Setup & Run
+
+```bash
+# Create environment
+conda create -n gymtrainer python=3.10
+conda activate gymtrainer
+
+# Install dependencies
+pip install opencv-python mediapipe numpy flask
+
+# Run
+python pose_detection.py
+```
+
+---
+
+## 📊 Status
+> Person A: Pose detection and rep counter working ✅
+> Person B: UI development upcoming ⏳
+
+---
+
 
 Environment setup completed and pose detection pipeline development is in progress.
+
+
+
+
+
+
+
+
+
+
